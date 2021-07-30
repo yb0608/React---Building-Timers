@@ -1,0 +1,101 @@
+
+body {
+    background-color: rgb(17, 17, 54);
+    text-align: center;
+}
+
+div {
+    color: #FFFFFF;
+    font-family:'Orbitron', sans-serif;;
+}
+
+div h1 {
+    font-weight:lighter;
+}
+
+div.wrapper {
+    background-color: rgb(17, 17, 54);
+    text-align: center;
+}
+
+div.timer{
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    
+}
+
+div.clock {
+    background-color: rgb(44, 44, 109);
+    border:0.1em solid #FFFFFF;
+    border-radius:0.5em;
+    margin-left: 4em;
+    margin-right: 4em;   
+}
+
+div.single-clock {
+    background-color: rgb(255, 255, 255,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    order:0.1em solid #FFFFFF;
+    border-radius:1em;
+    width:30%
+}
+
+div.selection {
+    padding-top: 10em;
+}
+
+div span {
+    font-size: 40px;
+    align-content: center;
+    padding: auto;
+}
+
+div h4 {
+    margin-top: 2em;
+    margin-bottom: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+}
+
+p.message {
+    font-size: 20pt;
+    background-color:rgb(165, 124, 243, 0.8);
+    padding-bottom: 2px;
+    border-radius:0.3em;
+    width: 31%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+input {
+    background-color: rgb(17, 17, 54);
+    color: #FFFFFF;
+    border:0.1em solid #FFFFFF;
+    border-radius:0.12em;
+    width: 190px;
+
+}
+
+input:focus{
+    outline: 0;
+}
+
+input.xyInput {
+    width:106px;
+}
+
+input.countdownInput {
+    width:198px;
+}
+
+input.tabataInput {
+    width:33px;
+}
